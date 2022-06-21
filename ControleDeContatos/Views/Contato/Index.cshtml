@@ -2,7 +2,63 @@
     ViewData["Title"] = "Listagem de Contatos";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Listagem de Contatos</h1>
-    <p>Sistema de Controle de Contatos</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th><h1 class="display-4">Listagem de Contatos</h1></th>
+            <th><a role="button" class="btn btn-success">Adicionar Contato</a></th>
+        </tr>
+    </thead>    
+</table>
+
+<div class="center">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Nome</th>
+          <th scope="col">E-mail</th>
+          <th scope="col">Celular</th>
+          <th scope="col">Opções</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Philipe</td>
+          <td>philipe@email.com</td>
+          <td>41-984547888</td>
+          <td>
+              <div class="btn-group" role="group">
+                  <a role="button" class="btn btn-primary">Editar</a>
+                  <a role="button" class="btn btn-danger">Apagar</a>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Raphael</td>
+          <td>raphael@email.com</td>
+          <td>47-985214554</td>
+          <td>
+              <div class="btn-group" role="group">
+                  <a role="button" class="btn btn-primary">Editar</a>
+                  <a role="button" class="btn btn-danger">Apagar</a>
+              </div>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Julya</td>
+          <td>julya@email.com</td>
+          <td>41-985214778</td>
+          <td>
+              <div class="btn-group" role="group">
+                  <a role="button" class="btn btn-primary">Editar</a>
+                  <a role="button" class="btn btn-danger">Apagar</a>
+              </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
 </div>
