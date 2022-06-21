@@ -354,3 +354,4 @@ D:\wprojects\CSHARP\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\refin
 D:\wprojects\CSHARP\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\ControleDeContatos.pdb
 D:\wprojects\CSHARP\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\ControleDeContatos.genruntimeconfig.cache
 D:\wprojects\CSHARP\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\ref\ControleDeContatos.dll
+D:\wprojects\CSHARP\ControleDeContatos\ControleDeContatos\obj\Debug\net5.0\Razor\Views\Contato\Index.cshtml.g.cs
