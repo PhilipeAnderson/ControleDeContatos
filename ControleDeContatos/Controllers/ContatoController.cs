@@ -41,7 +41,8 @@ namespace ControleDeContatos.Controllers
         [HttpPost]
         public IActionResult Criar(ContatoModel contato)
         {
-
+            _contatoRepository.Adicionar(contato);
+            return RedirectToAction("Index");
         }
     }
 }
