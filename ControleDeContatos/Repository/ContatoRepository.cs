@@ -1,5 +1,7 @@
 ﻿using ControleDeContatos.Data;
 using ControleDeContatos.Models;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ControleDeContatos.Repository
 {
@@ -10,6 +12,10 @@ namespace ControleDeContatos.Repository
         public ContatoRepository(BancoContext bancoContext)
         {
             _bancoContext = bancoContext;
+        }
+        public List<ContatoModel> BuscarTodos()
+        {
+            return _bancoContext.Contatos.ToList();
         }
 
         public ContatoModel Adicionar(ContatoModel contato)
