@@ -11,8 +11,14 @@ namespace ControleDeContatos.Repository
 
         public ContatoRepository(BancoContext bancoContext)
         {
-            _bancoContext = bancoContext;
+            this._bancoContext = bancoContext;
         }
+
+        public ContatoModel ListarPorId(int id)
+        {
+            return _bancoContext.Contatos.FirstOrDefault(x => x.Id == id);
+        }
+
         public List<ContatoModel> BuscarTodos()
         {
             return _bancoContext.Contatos.ToList();
@@ -25,5 +31,6 @@ namespace ControleDeContatos.Repository
             _bancoContext.SaveChanges();
 ;            return contato;
         }
+
     }
 }
